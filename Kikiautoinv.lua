@@ -17,7 +17,7 @@ end
 local parser = CreateFrame("Frame")
 parser:RegisterEvent("CHAT_MSG_GUILD")
 
-parser_sounds:SetScript("OnEvent", function()
+parser:SetScript("OnEvent", function()
   if active and (arg1 == "+") then
     if GetNumPartyMembers() == 4 then
       print("Converting to Raid...")
