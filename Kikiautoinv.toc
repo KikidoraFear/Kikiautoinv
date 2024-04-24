@@ -1,0 +1,7 @@
+## Interface: 11200
+## Title: Kikiautoinv1
+## Author: Kikidora
+## Notes: automatically invites players to group/raid
+## Version: 1.0
+
+Kikiautoinv.lua
